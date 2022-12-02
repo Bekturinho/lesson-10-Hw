@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		914EC1392935498600F9B581 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC1382935498600F9B581 /* main.swift */; };
+		914EC142293555AB00F9B581 /* realState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC141293555AB00F9B581 /* realState.swift */; };
+		914EC1442937931100F9B581 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC1432937931100F9B581 /* Products.swift */; };
+		914EC1462937994F00F9B581 /* flat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC1452937994F00F9B581 /* flat.swift */; };
+		914EC1482937995C00F9B581 /* garage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC1472937995C00F9B581 /* garage.swift */; };
+		914EC14A293A8F1600F9B581 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC149293A8F1600F9B581 /* Stock.swift */; };
+		914EC14C293A94B500F9B581 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EC14B293A94B500F9B581 /* Cars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		914EC1352935498600F9B581 /* lesson 10 Hw */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lesson 10 Hw"; sourceTree = BUILT_PRODUCTS_DIR; };
 		914EC1382935498600F9B581 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		914EC141293555AB00F9B581 /* realState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realState.swift; sourceTree = "<group>"; };
+		914EC1432937931100F9B581 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		914EC1452937994F00F9B581 /* flat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flat.swift; sourceTree = "<group>"; };
+		914EC1472937995C00F9B581 /* garage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garage.swift; sourceTree = "<group>"; };
+		914EC149293A8F1600F9B581 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		914EC14B293A94B500F9B581 /* Cars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,7 @@
 		914EC12C2935498600F9B581 = {
 			isa = PBXGroup;
 			children = (
+				914EC14B293A94B500F9B581 /* Cars.swift */,
 				914EC1372935498600F9B581 /* lesson 10 Hw */,
 				914EC1362935498600F9B581 /* Products */,
 			);
@@ -58,6 +71,11 @@
 			isa = PBXGroup;
 			children = (
 				914EC1382935498600F9B581 /* main.swift */,
+				914EC141293555AB00F9B581 /* realState.swift */,
+				914EC1432937931100F9B581 /* Products.swift */,
+				914EC1452937994F00F9B581 /* flat.swift */,
+				914EC1472937995C00F9B581 /* garage.swift */,
+				914EC149293A8F1600F9B581 /* Stock.swift */,
 			);
 			path = "lesson 10 Hw";
 			sourceTree = "<group>";
@@ -120,7 +138,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				914EC1462937994F00F9B581 /* flat.swift in Sources */,
+				914EC1442937931100F9B581 /* Products.swift in Sources */,
+				914EC14A293A8F1600F9B581 /* Stock.swift in Sources */,
 				914EC1392935498600F9B581 /* main.swift in Sources */,
+				914EC1482937995C00F9B581 /* garage.swift in Sources */,
+				914EC142293555AB00F9B581 /* realState.swift in Sources */,
+				914EC14C293A94B500F9B581 /* Cars.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
